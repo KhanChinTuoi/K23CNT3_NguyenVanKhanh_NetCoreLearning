@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NvkLesson03", "NvkLesson03\NvkLesson03.csproj", "{61C4A629-6F17-422D-A110-8E6A6E0EAC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C4A629-6F17-422D-A110-8E6A6E0EAC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C4A629-6F17-422D-A110-8E6A6E0EAC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C4A629-6F17-422D-A110-8E6A6E0EAC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C4A629-6F17-422D-A110-8E6A6E0EAC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41DF4C64-8281-48FF-A061-B5EB60E9CEAF}
+	EndGlobalSection
+EndGlobal
