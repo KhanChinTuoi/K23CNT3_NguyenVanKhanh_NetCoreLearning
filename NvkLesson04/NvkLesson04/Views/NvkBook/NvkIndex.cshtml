@@ -1,0 +1,32 @@
+﻿@model IEnumerable<NvkLesson04.Models.NvkBook>
+@{
+    ViewData["Title"] = "Book List";
+}
+
+<h1>Thong tin cac cuon sach</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>  
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(NvkBook nvkItem in Model)
+        {
+            <tr>
+                <td>@nvkItem.NvkId</td>
+                <td>@nvkItem.NvkTitle</td>
+                <td>@nvkItem.NvkDescription</td>
+                <td>
+                    <img src="@nvkItem.NvkImage" alt="@nvkItem.NvkTitle" style="width:100px; height:150px" />
+                </td>
+            
+                <td>@nvkItem.NvkPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>
