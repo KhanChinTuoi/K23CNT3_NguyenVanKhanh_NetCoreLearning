@@ -1,0 +1,31 @@
+﻿
+@model IEnumerable<NvkLesson05.Models.DataModels.NvkMember>
+@{
+    ViewData["Title"] = "NvkIndex";
+}
+
+<h1>Danh sach member</h1>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Member Id</th>
+            <th>Member UserName</th>
+            <th>Member Password</th>
+            <th>Member Fullname</th>
+            <th>Member Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var nvkItem in Model)
+        {
+            <tr>
+                <td>@nvkItem.NvkMemberId</td>
+                <td>@nvkItem.NvkUserName</td>
+                <td>@nvkItem.NvkPassword</td>
+                <td>@nvkItem.NvkFullname</td>
+                <td>@nvkItem.NvkEmail</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
