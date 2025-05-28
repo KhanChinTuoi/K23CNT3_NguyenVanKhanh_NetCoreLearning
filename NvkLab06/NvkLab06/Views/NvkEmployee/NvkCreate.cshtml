@@ -1,0 +1,48 @@
+﻿@model NvkLab06.Models.NvkEmployee
+@{
+    ViewData["Title"] = "Them moi nhan vien";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+    <form asp-action="NvkCreate" method="post">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Ho ten</span>
+            <input asp-for="NvkName" class="form-control" placeholder="Nhap ho ten"/>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Ngay sinh</span>
+            <input asp-for="NvkBirthday" class="form-control" placeholder="Ngay sinh" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Email</span>
+            <input asp-for="NvkEmail" class="form-control" placeholder="Nhap Email" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">So dien thoai</span>
+            <input asp-for="NvkPhone" class="form-control" placeholder="Nhap so dien thoai" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">VND</span>
+            <input asp-for="NvkSalary" class="form-control" placeholder="Luong co ban" />
+        </div>
+
+        <div class="input-group mb-4">
+            <label class="input-group-text" for="statusSelect">Trang thai</label>
+            <select asp-for="NvkStatus" id="statusSelect" class="form-select">
+            <option value="true">Dang lam</option>
+            <option value="false">Da nghi</option>
+            </select>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success">Luu lai</button>
+            <a asp-action="NvkIndex" class="btn btn-secondary">Quay lai</a>
+		</div>
+    </form>
+</div>

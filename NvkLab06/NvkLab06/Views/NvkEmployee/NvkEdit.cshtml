@@ -1,0 +1,37 @@
+﻿@model NvkLab06.Models.NvkEmployee
+
+@{
+    ViewData["Title"] = "Chỉnh sửa nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="NvkEditPUT" method="post">
+    <input type="hidden" asp-for="NvkId" />
+    <div class="mb-3">
+        <label>Họ tên</label>
+        <input asp-for="NvkName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Ngày sinh</label>
+        <input asp-for="NvkBirthday" class="form-control" type="date" />
+    </div>
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="NvkEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>SĐT</label>
+        <input asp-for="NvkPhone" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Lương</label>
+        <input asp-for="NvkSalary" class="form-control" />
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="NvkStatus" class="form-check-input" />
+        <label class="form-check-label">Đang làm việc</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    <a asp-action="NvkIndex" class="btn btn-secondary">Hủy</a>
+</form>
