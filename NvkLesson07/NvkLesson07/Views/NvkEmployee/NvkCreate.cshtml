@@ -1,0 +1,58 @@
+﻿@model NvkLesson07.Models.NvkEmployee
+
+@{
+    ViewData["Title"] = "THEM MOI NHAN VIEN";
+}
+
+<h1>THEM MOI NHAN VIEN</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvkCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvkId" class="control-label"></label>
+                <input asp-for="NvkId" class="form-control" />
+                <span asp-validation-for="NvkId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkName" class="control-label"></label>
+                <input asp-for="NvkName" class="form-control" />
+                <span asp-validation-for="NvkName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkBirthday" class="control-label"></label>
+                <input asp-for="NvkBirthday" class="form-control" />
+                <span asp-validation-for="NvkBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkEmail" class="control-label"></label>
+                <input asp-for="NvkEmail" class="form-control" />
+                <span asp-validation-for="NvkEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkPhone" class="control-label"></label>
+                <input asp-for="NvkPhone" class="form-control" />
+                <span asp-validation-for="NvkPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkSalary" class="control-label"></label>
+                <input asp-for="NvkSalary" class="form-control" />
+                <span asp-validation-for="NvkSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NvkStatus" /> @Html.DisplayNameFor(model => model.NvkStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvkIndex" class="btn btn-secondary">Back to List</a>
+</div>
+

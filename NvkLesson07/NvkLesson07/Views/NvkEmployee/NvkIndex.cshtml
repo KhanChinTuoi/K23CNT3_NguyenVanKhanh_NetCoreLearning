@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NvkLesson07.Models.NvkEmployee>
+
+@{
+    ViewData["Title"] = "DANH SACH NHAN VIEN";
+}
+
+<h1>DANH SACH NHAN VIEN</h1>
+
+<p>
+    <a asp-action="NvkCreate" class="btn btn-primary">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkStatus)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "NvkEdit", new { id = item.NvkId }) |
+                    @Html.ActionLink("Detail", "NvkDetail", new { id = item.NvkId  }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
