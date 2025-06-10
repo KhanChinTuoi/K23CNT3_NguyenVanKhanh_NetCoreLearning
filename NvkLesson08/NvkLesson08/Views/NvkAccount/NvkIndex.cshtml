@@ -1,0 +1,90 @@
+﻿@model IEnumerable<NvkLesson08.Models.NvkAccount>
+
+@{
+    ViewData["Title"] = "NvkIndex";
+}
+
+<h1>NvkIndex</h1>
+
+<p>
+    <a asp-action="NvkCreate" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkAvatar)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkBirthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkPassword)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvkFacebook)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
