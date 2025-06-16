@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NvkLesson09
+build_property.RootNamespace = NvkLesson09
+build_property.ProjectDir = C:\K23CNT3NetCore\K23CNT3_NguyenVanKhanh_NetCoreLearning\NvkLesson09\NvkLesson09\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\K23CNT3NetCore\K23CNT3_NguyenVanKhanh_NetCoreLearning\NvkLesson09\NvkLesson09
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkAccounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkAccounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkAccounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkAccounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkAccounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkBooks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkBooks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkBooks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkBooks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkBooks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkCategories/NvkIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrQ2F0ZWdvcmllc1xOdmtJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkHome/NvkAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrSG9tZVxOdmtBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkHome/NvkIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrSG9tZVxOdmtJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderBooks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJCb29rc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderBooks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJCb29rc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderBooks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJCb29rc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderBooks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJCb29rc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderBooks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJCb29rc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkOrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkPublishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrUHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkPublishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrUHVibGlzaGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkPublishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkPublishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrUHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/NvkPublishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnZrUHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/Shared/NvkError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE52a0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/Shared/_NvkNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OdmtOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT3NetCore/K23CNT3_NguyenVanKhanh_NetCoreLearning/NvkLesson09/NvkLesson09/Views/Shared/_NvkLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OdmtMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yfg40f1n23
