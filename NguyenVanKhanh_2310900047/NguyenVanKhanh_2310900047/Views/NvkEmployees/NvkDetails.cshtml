@@ -1,0 +1,45 @@
+﻿@model NguyenVanKhanh_2310900047.Models.NvkEmployee
+
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+
+<div class="card shadow-sm mx-auto mt-4" style="max-width: 500px;">
+    <div class="card-header bg-primary text-white text-center">
+        <h3>@ViewData["Title"]</h3>
+    </div>
+
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Họ tên</dt>
+            <dd class="col-sm-8">@Model.NvkEmpName</dd>
+
+            <dt class="col-sm-4">Trình độ</dt>
+            <dd class="col-sm-8">@Model.NvkEmpLevel</dd>
+
+            <dt class="col-sm-4">Ngày bắt đầu</dt>
+            <dd class="col-sm-8">@Model.NvkEmpStartDate?.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-4">Trạng thái</dt>
+            <dd class="col-sm-8">
+                @if (Model.NvkEmpStatus == true)
+                {
+                    <span class="badge bg-success">Hiển thị</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">Tạm khóa</span>
+                }
+            </dd>
+        </dl>
+    </div>
+
+    <div class="card-footer text-center">
+        <a asp-action="NvkEdit" asp-route-NvkId="@Model.NvkEmpId" class="btn btn-warning me-2">
+            ✏️ Chỉnh sửa
+        </a>
+        <a asp-action="NvkIndex" class="btn btn-secondary">
+            ⬅️ Quay lại danh sách
+        </a>
+    </div>
+</div>

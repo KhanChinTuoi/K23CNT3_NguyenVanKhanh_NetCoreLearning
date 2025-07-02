@@ -1,0 +1,53 @@
+﻿@model IEnumerable<NvkLesson10.Models.NvkPost>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkContent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkStatus)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NvkId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NvkId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NvkId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿@model NvkLesson10.Models.NvkPost
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NvkPost</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvkId" class="control-label"></label>
+                <input asp-for="NvkId" class="form-control" />
+                <span asp-validation-for="NvkId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkTitle" class="control-label"></label>
+                <input asp-for="NvkTitle" class="form-control" />
+                <span asp-validation-for="NvkTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkImage" class="control-label"></label>
+                <input asp-for="NvkImage" class="form-control" />
+                <span asp-validation-for="NvkImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkContent" class="control-label"></label>
+                <input asp-for="NvkContent" class="form-control" />
+                <span asp-validation-for="NvkContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvkStatus" class="control-label"></label>
+                <input asp-for="NvkStatus" class="form-control" />
+                <span asp-validation-for="NvkStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

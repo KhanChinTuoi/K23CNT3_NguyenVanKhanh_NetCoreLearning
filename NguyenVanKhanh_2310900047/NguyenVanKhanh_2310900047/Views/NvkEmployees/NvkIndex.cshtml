@@ -1,0 +1,59 @@
+﻿@model IEnumerable<NguyenVanKhanh_2310900047.Models.NvkEmployee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="NvkCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmpId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvkEmpStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.NvkEmpId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkEmpLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkEmpStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvkEmpStatus)
+            </td>
+            <td>
+                <a asp-action="NvkEdit" asp-route-Nvkid="@item.NvkEmpId">Edit</a> |
+                <a asp-action="NvkDetails" asp-route-Nvkid="@item.NvkEmpId">Details</a> |
+                <a asp-action="NvkDelete" asp-route-Nvkid="@item.NvkEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,42 @@
+﻿@model NguyenVanKhanh_2310900047.Models.NvkEmployee
+
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+
+<div class="card shadow-sm mx-auto mt-4" style="max-width: 500px;">
+    <div class="card-header bg-danger text-white">
+        <h4 class="text-center">Bạn có chắc muốn xóa nhân viên này?</h4>
+    </div>
+
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Họ tên</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.NvkEmpName)</dd>
+
+            <dt class="col-sm-4">Cấp bậc</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.NvkEmpLevel)</dd>
+
+            <dt class="col-sm-4">Ngày bắt đầu</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.NvkEmpStartDate)</dd>
+
+            <dt class="col-sm-4">Trạng thái</dt>
+            @if (Model.NvkEmpStatus == true)
+            {
+                <p>Hiển thị</p>
+            }
+            else
+            {
+                <p>Tạm ẩn</p>
+            }
+        </dl>
+    </div>
+
+    <div class="card-footer text-center">
+        <form asp-action="NvkDelete">
+            <input type="hidden" asp-for="NvkEmpId" />
+            <button type="submit" class="btn btn-danger me-2">🗑️ Xóa</button>
+            <a asp-action="NvkIndex" class="btn btn-secondary">⬅️ Quay lại</a>
+        </form>
+    </div>
+</div>
